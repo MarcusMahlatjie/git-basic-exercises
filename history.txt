@@ -1,0 +1,55 @@
+    1  cd ..
+    2  cd  ~/Desktop/Marcus/Umuzi Data Science Bootcamp/PROJECT - GIT BASIC EXCERSISES/git-basic-exercises
+    3  cd git-basic-exercises
+    4  ls -a
+    5  ls
+    6  git init
+    7  ls -a
+    8  git status
+    9  touch README.md
+   10  ls -a
+   11  git status
+   12  git log
+   13  git add README.md
+   14  git status
+   15  git rm README.md
+   16  git status
+   17  git rm --cached README.md
+   18  git status
+   19  git add README.md
+   20  git status
+   21  git commit -m "initial commit"
+   22  git log
+   23  nano README.md
+   24  cat README.md
+   25  git status
+   26  git add README.md
+   27  git status
+   28  cat README.md
+   29  git commit -m "second commit"
+   30  nano README.md
+   31  cat README.md
+   32  git add README.md
+   33  git status
+   34  git commit -m "third commit"
+   35  git log
+   36  git checkout 4edae680161a8f35080f149d1eb4d726acf53324
+   37  cat README.md
+   38  git checkout main
+   39  git checkout master
+   40  cat README.md
+   41  git branch
+   42  git branch milkshake-flavours
+   43  git branch
+   44  git checkout milkshake-flavours
+   45  git branch
+   46  nano milkshakes.md
+   47  git status
+   48  git add milkshakes.md
+   49  git commit -m "added initial flavours"
+   50  git log
+   51  git checkout master
+   52  git checkout -b history
+   53  git log
+   54  git branch
+   55  history > history.txt
